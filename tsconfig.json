@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "outDir": "build",
+    "lib": ["esnext", "dom"], // Re:dom https://github.com/graphcool/graphql-request/issues/26#issuecomment-354482903
+    "sourceMap": true,
+    "rootDir": "src",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "pretty": true
+  },
+  "include": ["src/**/*.ts"]
+}
