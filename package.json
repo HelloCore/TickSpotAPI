@@ -12,7 +12,7 @@
   "dependencies": {
     "apollo-cache-control": "^0.8.1",
     "apollo-datasource-rest": "^0.6.1",
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "axios": "^0.19.0",
     "btoa": "^1.2.1",
     "cors": "^2.8.5",
