@@ -22,7 +22,7 @@ const resolvers = {
       }
       return context.tickSpotAPI
         .getRoles(args.username, args.password)
-        .then(roles => roles.find((a)=>a.company === "Appsynth"));
+        .then(roles => roles[0]);
     },
     createEntry(_parent, args, context: TickspotContext) {
       validateContext(context);
